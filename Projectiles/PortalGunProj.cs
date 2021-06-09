@@ -42,19 +42,19 @@ namespace AlchemistNPC.Projectiles
 			switch(Main.rand.Next(5))
 			{
 			case 0:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal1"), projectile.damage*2, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal1>(), projectile.damage*2, 0, Main.myPlayer);
 			break;
 			case 1:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal2"), projectile.damage, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal2>(), projectile.damage, 0, Main.myPlayer);
 			break;
 			case 2:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal3"), projectile.damage, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal3>(), projectile.damage, 0, Main.myPlayer);
 			break;
 			case 3:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal4"), projectile.damage-projectile.damage/4, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal4>(), projectile.damage-projectile.damage/4, 0, Main.myPlayer);
 			break;
 			case 4:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal5"), projectile.damage+projectile.damage/2, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal5>(), projectile.damage+projectile.damage/2, 0, Main.myPlayer);
 			break;
 			}
 			return true;
@@ -68,19 +68,19 @@ namespace AlchemistNPC.Projectiles
 			switch(Main.rand.Next(5))
 			{
 			case 0:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal1"), projectile.damage*2, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal1>(), projectile.damage*2, 0, Main.myPlayer);
 			break;
 			case 1:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal2"), projectile.damage, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal2>(), projectile.damage, 0, Main.myPlayer);
 			break;
 			case 2:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal3"), projectile.damage, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal3>(), projectile.damage, 0, Main.myPlayer);
 			break;
 			case 3:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal4"), projectile.damage-projectile.damage/4, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal4>(), projectile.damage-projectile.damage/4, 0, Main.myPlayer);
 			break;
 			case 4:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal5"), projectile.damage+projectile.damage/2, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal5>(), projectile.damage+projectile.damage/2, 0, Main.myPlayer);
 			break;
 			}
 		}
@@ -92,19 +92,19 @@ namespace AlchemistNPC.Projectiles
 			switch(Main.rand.Next(5))
 			{
 			case 0:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal1"), projectile.damage*2, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal1>(), projectile.damage*2, 0, Main.myPlayer);
 			break;
 			case 1:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal2"), projectile.damage, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal2>(), projectile.damage, 0, Main.myPlayer);
 			break;
 			case 2:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal3"), projectile.damage, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal3>(), projectile.damage, 0, Main.myPlayer);
 			break;
 			case 3:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal4"), projectile.damage-projectile.damage/4, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal4>(), projectile.damage-projectile.damage/4, 0, Main.myPlayer);
 			break;
 			case 4:
-			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, mod.ProjectileType("RickPortal5"), projectile.damage+projectile.damage/2, 0, Main.myPlayer);
+			Projectile.NewProjectile(projectile.Center.X, projectile.Center.Y, vel.X, vel.Y, ModContent.ProjectileType<Projectiles.RickPortal5>(), projectile.damage+projectile.damage/2, 0, Main.myPlayer);
 			break;
 			}
 			return true;
