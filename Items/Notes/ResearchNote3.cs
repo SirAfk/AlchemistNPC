@@ -12,7 +12,7 @@ namespace AlchemistNPC.Items.Notes
 		{
 			DisplayName.SetDefault("Research Note #3");
 			Tooltip.SetDefault("'In my interdimensional travels I have met a scientist, name's [c/00FF00:Stanford]."
-			+"\nHe asked fme to aid him in making a weapon which could cause damage to a Godlike Creature."
+			+"\nHe asked me to aid him in making a weapon which could cause damage to a Godlike Creature."
 			+"\nIt took us about half year to actually made working [c/00FF00:Prototype #618] aka [c/00FF00:'Quantum Destabilizer']..."
 			+"\n[c/00FF00:Charged Blaster] from Martians would fit as base."
 			+"\nLens from [c/00FF00:Heat Ray] would be just fine." 
